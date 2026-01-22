@@ -1,15 +1,21 @@
 @font-face {
   font-family: 'MevaraTrial';
-  src: url('../fonts/MevaraTrial-Regular.otf') format('truetype');
+  src: url('../fonts/MevaraTrial-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
+
 
 body {
   color: rgb(255, 255, 255);
   background-color: rgb(34, 34, 34);
   font-family: 'MevaraTrial', serif;
 }
+
+span {
+ font-family: 'Courier New', monospace;
+} 
+
 
 ul {
   display: flex;
@@ -49,10 +55,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-
-span {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-} 
 
 footer a {
   margin: 20px;
